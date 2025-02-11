@@ -9,7 +9,7 @@ const Contact = () => {
       initial={{ scale: 0.8, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
     >
-      <h2 className="text-4xl font-bold mb-12">Let's Connect</h2>
+      <h2 className="text-4xl font-bold mb-12">Connect</h2>
       <div className="space-y-8">
         <motion.div
           className="p-6 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors"

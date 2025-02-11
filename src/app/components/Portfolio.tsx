@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Code, Terminal, Radio, Database, Globe, Linkedin } from 'lucide-react';
+import Image from 'next/image';
 import Contact from './Contact';
 import PageTransition from './PageTransition';
 import About from './About';
@@ -216,7 +217,7 @@ const Portfolio = () => {
                 transition={{ duration: 0.2 }}
               >
                 <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-blue-500">
-                  <img
+                  <Image
                     src="https://imgur.com/tGjvTiz.jpg"
                     alt="Profile"
                     referrerPolicy="no-referrer"
