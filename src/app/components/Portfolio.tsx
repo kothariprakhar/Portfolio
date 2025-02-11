@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { Code, Terminal, Radio, Database, Globe, Github, Linkedin } from 'lucide-react';
+import { Code, Terminal, Radio, Database, Globe, Linkedin } from 'lucide-react';
 import Contact from './Contact';
 import PageTransition from './PageTransition';
 import About from './About';

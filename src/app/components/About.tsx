@@ -1,6 +1,6 @@
 "use client";
 import { motion } from 'framer-motion';
-import { Book, Award, Music, Heart, Star, Trophy, Lightbulb } from 'lucide-react';
+import { Award, Music, Heart, Star, Trophy, Lightbulb } from 'lucide-react';
 
 const About = () => {
   const education = [

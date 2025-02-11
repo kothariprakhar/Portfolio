@@ -1,6 +1,6 @@
 "use client";
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Github, Linkedin } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -65,14 +65,6 @@ const Contact = () => {
               whileHover={{ scale: 1.2 }}
             >
               <Linkedin className="w-6 h-6" />
-            </motion.a>
-            <motion.a
-              href="https://github.com"
-              target="_blank"
-              className="text-blue-400 hover:text-blue-300"
-              whileHover={{ scale: 1.2 }}
-            >
-              <Github className="w-6 h-6" />
             </motion.a>
           </div>
         </motion.div>
