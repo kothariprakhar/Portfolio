@@ -6,6 +6,7 @@ import Image from 'next/image';
 import Contact from './Contact';
 import PageTransition from './PageTransition';
 import About from './About';
+import img from "../images/Coding.jpg"
 
 const Portfolio = () => {
   const [activeSection, setActiveSection] = useState('home');
@@ -218,9 +219,10 @@ const Portfolio = () => {
               >
                 <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-blue-500">
                   <Image
-                    src="https://imgur.com/tGjvTiz.jpg"
+                    src={img}
+                    width={300}
+                    height={300}
                     alt="Profile"
-                    referrerPolicy="no-referrer"
                     className="w-full h-full object-cover"
                   />
                 </div>
