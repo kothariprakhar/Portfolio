@@ -357,7 +357,7 @@ const Portfolio = () => {
                       </motion.div>
                       <div className="flex-1">
                         <h3 className="text-2xl font-bold mb-2 text-white">{item.company}</h3>
-                        <h4 className="text-xl text-blue-400 mb-4">{item.role}</h4>
+                        {/* <h4 className="text-xl text-blue-400 mb-4">{item.role}</h4> */}
                         <ul className="space-y-2">
                           {item.achievements.map((achievement, i) => (
                             <motion.li
