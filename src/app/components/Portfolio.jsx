@@ -100,10 +100,10 @@ const Portfolio = () => {
       company: "Freelance Developer",
       role: "Full Stack Developer",
       achievements: [
-        "Developed applications for 10+ international clients",
+        "Developed applications for 10+ clients",
         "Increased traffic by 300% for multiple clients",
         "Built AI-powered healthcare solutions",
-        "Created financial inclusion platforms",
+        "Created financial inclusion platform",
         "Impacted 400,000+ end users"
       ]
     },
